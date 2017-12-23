@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		09F43D33A6A39A20693AD9B9 /* Pods_HangmanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B5EAFC8C25954494D670A8 /* Pods_HangmanTests.framework */; };
+		46383FBD1FEE54710098C729 /* SteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46383FBC1FEE54700098C729 /* SteppedProgressBar.swift */; };
+		46383FBE1FEE54710098C729 /* SteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46383FBC1FEE54700098C729 /* SteppedProgressBar.swift */; };
 		46F8F8F71FD44B41009CA6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8F8F61FD44B41009CA6B4 /* AppDelegate.swift */; };
 		46F8F8F91FD44B41009CA6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8F8F81FD44B41009CA6B4 /* ViewController.swift */; };
 		46F8F8FC1FD44B41009CA6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F8F8FA1FD44B41009CA6B4 /* Main.storyboard */; };
@@ -29,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		3E070B3BEC99C3282EF07920 /* Pods_Hangman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hangman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46383FBC1FEE54700098C729 /* SteppedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteppedProgressBar.swift; sourceTree = "<group>"; };
 		46F8F8F31FD44B41009CA6B4 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F8F8F61FD44B41009CA6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F8F8F81FD44B41009CA6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46383FBB1FEE54220098C729 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				46383FBC1FEE54700098C729 /* SteppedProgressBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
 		46F8F8EA1FD44B40009CA6B4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +100,7 @@
 		46F8F8F51FD44B41009CA6B4 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				46383FBB1FEE54220098C729 /* ProgressBar */,
 				46F8F8F61FD44B41009CA6B4 /* AppDelegate.swift */,
 				46F8F8F81FD44B41009CA6B4 /* ViewController.swift */,
 				46F8F8FA1FD44B41009CA6B4 /* Main.storyboard */,
@@ -347,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46383FBD1FEE54710098C729 /* SteppedProgressBar.swift in Sources */,
 				46F8F8F91FD44B41009CA6B4 /* ViewController.swift in Sources */,
 				46F8F8F71FD44B41009CA6B4 /* AppDelegate.swift in Sources */,
 			);
@@ -356,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46383FBE1FEE54710098C729 /* SteppedProgressBar.swift in Sources */,
 				46F8F90C1FD44B41009CA6B4 /* HangmanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
